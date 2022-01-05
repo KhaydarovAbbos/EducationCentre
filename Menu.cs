@@ -21,7 +21,7 @@ namespace EducationalCenter
                     Console.Clear();
                     Adminstration admin = new Adminstration();
                     #region input data
-
+                    Console.WriteLine("Agarda login parolni bilmasangiz, login: admin | parol: admin12345 shu login parol bilan kirishingiz mumkin");
                     Console.Write("\nLoginingizni kiriting: ");
                     admin.Login = Console.ReadLine();
 
@@ -357,6 +357,7 @@ namespace EducationalCenter
                     Console.ForegroundColor = ConsoleColor.Red;
                     //Console.WriteLine("\nEslatma: Admistratorlar parametrlariga kirish uchun Asosiy admin bo'lishingiz lozim!\n");
                     Console.WriteLine("Admistratorlar parametrlariga faqat asosiy adminlar kira oladi!");
+                    Console.WriteLine("Agarda login parolni bilmasangiz, login: admin | parol: admin12345 shu login parol bilan kirishingiz mumkin");
                     Console.ForegroundColor = ConsoleColor.White;
 
                     Console.Write("\nLoginingizni kiriting: ");
